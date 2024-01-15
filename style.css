@@ -12,13 +12,30 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2rem;
+}
+nav img{
+    margin-top: 18px;
+    width: 48px;
+    height: 56.008px;
+    flex-shrink: 0;
+}
+nav h3{
+    color: #131318;
+    font-size: 30px;
+    font-weight: 800;
 }
 nav ul{
     display: flex;
 }
 nav ul li{
     list-style: none;
+    padding-top: 15px;
     margin-left: 30px;
+    margin-right: 15px;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
 }
 .logo-container{
     display: flex;
@@ -33,12 +50,33 @@ nav .menu{
     display: none;
 }
 
+/* banner section starts */
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    width: 1200px;
+    height: 500px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/Group\ 13.png');
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
 @media screen and (max-width:600px){
     nav ul{
         display: none;
     }
     nav .menu{
         display: block;
-        margin-top: 20px;
+        margin-top: 2.5rem;
     }
 }
