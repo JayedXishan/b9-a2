@@ -1,0 +1,44 @@
+/* shared */
+*{
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    padding: 1.5rem 2.5rem;
+}
+.primary-color{
+    color: #FF5400;
+}
+/* header start */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+.logo-container{
+    display: flex;
+}
+.logo-container img{
+    margin-right: 15px;
+}
+.logo-container h3{
+    margin-right: 15px;
+}
+nav .menu{
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    nav ul{
+        display: none;
+    }
+    nav .menu{
+        display: block;
+        margin-top: 20px;
+    }
+}
