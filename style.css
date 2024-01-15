@@ -12,7 +12,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 nav img{
     margin-top: 18px;
@@ -58,13 +58,63 @@ nav .menu{
     align-items: center;
 }
 .banner{
-    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
     height: 500px;
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/Group\ 13.png');
     background-repeat: no-repeat;
-
+    border-radius: 20px;
 }
+.banner h3{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+.banner p{
+    width: 670px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.banner-input{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
 
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.banner input{
+    margin-right: 15px;
+    padding-left: 10px;
+}
+.banner select{
+    margin-right: 15px;
+    padding-left: 10px;
+}
+.banner button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px; 
+    font-weight: 700;
+    
+}
 
 
 
