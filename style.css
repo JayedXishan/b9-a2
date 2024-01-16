@@ -721,7 +721,8 @@ hr{
         
     }
     .review-item{
-        height: 110px;
+        height: 180px;
+        position: relative;
     }
     .review-des h3{
         font-size: 14px;
@@ -746,6 +747,21 @@ hr{
         width: 80px;
         height: 80px;
         gap: 8px;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+    }
+    .round-img img{
+        position: relative;
+        top: 30%;
+        left: 100%;
+    }
+    .round-img .review-des{
+        position: relative;
+        top: 30%;
+        
     }
     
     /* news-letter-section */
