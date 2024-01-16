@@ -663,6 +663,40 @@ hr{
         border: 1px solid rgba(251, 181, 99, 0.20);
         background-color: rgba(251, 181, 99, 0.05);
     }
+
+    /* review section */
+    .review-container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        
+    }
+    .review-item{
+        height: 110px;
+    }
+    .review-des h3{
+        font-size: 14px;
+        
+    }
+    .review-sec p{
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+
+        
+    }
+    .review-des{
+        width: 250px;
+    }
+    .review-des p{
+        width: 250px;
+        margin-bottom: 10px;
+    }
+    .round-img{
+        width: 80px;
+        height: 80px;
+        gap: 8px;
+    }
     
     /* news-letter-section */
     .news-letter-sec{
