@@ -39,9 +39,11 @@ nav ul li{
 }
 .logo-container{
     display: flex;
+    align-items: center;
 }
 .logo-container img{
     margin-right: 15px;
+    margin-top: 0px;
 }
 .logo-container h3{
     margin-right: 15px;
@@ -105,8 +107,7 @@ nav .menu{
     
 }
 .banner input{
-    margin-right: 15px;
-    padding-left: 10px;
+    margin-right: 10px;
 }
 .banner select{
     margin-right: 15px;
@@ -232,6 +233,19 @@ nav .menu{
     width: 573px;
     height: 300px;
 }
+.box1,.box2,.box3,.box4,.box5,.box6,.box7{
+    position: relative;
+}
+.box1 h3,.box2 h3,.box3 h3,.box7 h3,.box4 h3,.box5 h3,.box6 h3{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+
+}
 .box2{
     
     width: 573px;
@@ -310,6 +324,18 @@ nav .menu{
     margin-right: auto;
 }
 
+.row1-col1 p,.row1-col2 p, .row2 p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.row1-col1 h3,.row1-col2 h3, .row2 h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
 /* review section starts */
 .review-sec{
     margin-top: 100px;
@@ -333,7 +359,7 @@ nav .menu{
 }
 .review-sec p{
     color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 18px;
 }
@@ -466,10 +492,12 @@ footer{
 }
 .footer-container .logo-container{
     margin-top: 55px;
+    align-items: center;
 }
 .footer-container .logo-container > img{
     width: 48px;
     height: 56.008px;
+    margin-top: 10px;
 }
 .footer-element{
     width: 780px;
@@ -556,14 +584,14 @@ hr{
     .popular-sec-container{
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .popular-des{
         flex: 1;
         text-align: justify;
     }
     .popular-des p{
-        width: 335px;
-
+        width: 395px;
         
     }
     .popular-des h3{
@@ -626,6 +654,14 @@ hr{
         height: 100%;
     }
 
+    .box1 h3,.box2 h3,.box3 h3,.box7 h3,.box4 h3,.box5 h3,.box6 h3{
+        top: 35%;
+        left: 35%;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
     /* why choose us section*/
     .why-choose-container{
         width: 350px;
@@ -662,6 +698,19 @@ hr{
         border-radius: 16px;
         border: 1px solid rgba(251, 181, 99, 0.20);
         background-color: rgba(251, 181, 99, 0.05);
+    }
+
+    .row1-col1 p,.row1-col2 p, .row2 p{
+        color: #5A5A5D;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    
+    .row1-col1 h3,.row1-col2 h3, .row2 h3{
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
     }
 
     /* review section */
