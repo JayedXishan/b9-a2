@@ -737,7 +737,7 @@ hr{
         
     }
     .review-des{
-        width: 250px;
+        width: 200px;
     }
     .review-des p{
         width: 250px;
@@ -756,14 +756,19 @@ hr{
     .round-img img{
         position: relative;
         top: 30%;
-        left: 100%;
+        left: 80%;
     }
     .round-img .review-des{
         position: relative;
         top: 30%;
         
     }
-    
+    .review-des p{
+        width: 200px;
+        margin: 0;
+        margin-top: 2px;
+        margin-bottom: 10px;
+    }
     /* news-letter-section */
     .news-letter-sec{
         flex-direction: column;
