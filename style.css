@@ -181,46 +181,83 @@ nav .menu{
 }
  
 /* destination starts */
-
+.destination-des{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.destination-des h3{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+}
+.destination-des p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
 .image-container{
-    display: grid;
-    grid-template-areas: 
-    "box1 box1 box1 box1 box2 box2 box2 box2"
-    "box3 box3 box4 box4 box4 box4 box5 box5"
-    "box6 box6 box6 box7 box7 box7 box7 box7";
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 17px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.row1-img{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+.row2-img{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+.row3-img{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
 }
 .box1{
-    grid-area: box1;
+    
     width: 573px;
     height: 300px;
 }
 .box2{
-    grid-area: box2;
+    
     width: 573px;
     height: 300px;
 }
 .box3{
-    grid-area: box3;
+    
     width: 374px;
     height: 286px;
 }
 .box4{
-    grid-area: box4;
     width: 474px;
     height: 286px;
 }
 .box5{
-    grid-area: box5;
+    
     width: 274px;
     height: 286px;
 }
 .box6{
-    grid-area: box6;
+    
     width: 473px;
     height: 300px;
 }
 .box7{
-    grid-area: box7;
+   
     width: 673px;
     height: 300px;
 }
@@ -353,8 +390,13 @@ hr{
     /* footer */
     .footer-container{
         width: 340px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .footer-element{
-        width: 330px;
+        width: 320px;
+    }
+    hr{
+        width: 320px;
     }
 }
