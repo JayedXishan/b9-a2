@@ -132,11 +132,14 @@ nav .menu{
 
 .popular-sec-container{
     margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
     display: flex;
     justify-content: space-between;
 }
 .popular-des{
-    flex: 0.6;
+    flex: 0.5;
 }
 
 .popular-des h3{
@@ -148,7 +151,7 @@ nav .menu{
     
 }
 .popular-des p{
-    width: 577px;
+    width: 550px;
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-style: normal;
@@ -278,12 +281,13 @@ nav .menu{
 
 /* why choose us */
 .why-choose-container{
-    width: 1200px;
+    width: 1170px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
 }
 .why-choose-des{
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -309,8 +313,8 @@ nav .menu{
     margin-bottom: 26px;
 }
 .row1-col1,.row1-col2 ,.row2{
-    width: 525px;
-    height: 284px;
+    width: 500px;
+    height: 274px;
     padding: 30px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
@@ -320,8 +324,10 @@ nav .menu{
     background: rgba(41, 206, 246, 0.05);
 }
 .row2{
+    margin-top: 45px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .row1-col1 p,.row1-col2 p, .row2 p{
@@ -365,6 +371,9 @@ nav .menu{
 
 }
 .review-container{
+    width:1170px;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
@@ -408,6 +417,7 @@ nav .menu{
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
+    width: 1170px;
     
 }
 .news-letter-form{
@@ -453,7 +463,7 @@ nav .menu{
     position: relative;
 }
 .news-img img{
-    width: 672px;
+    width: 620px;
     height: 460px;
 }
 .discount{
@@ -463,7 +473,7 @@ nav .menu{
     background: #FF5400;
     transform: rotate(-19.628deg);
     position: absolute;
-    left: 410px;
+    left: 358px;
     top: 320px;
     text-align: center;
     padding-bottom: 25px;
@@ -583,16 +593,18 @@ hr{
     }
     /* for popular section */
     .popular-sec-container{
+        width: 335px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .popular-des{
+        width: 335px;
         flex: 1;
         text-align: justify;
     }
     .popular-des p{
-        width: 395px;
+        width: 335px;
         
     }
     .popular-des h3{
@@ -600,7 +612,7 @@ hr{
         margin-top: 20px;
     }
     .popular-des ul li{
-        width: 320px;
+        width: 290px;
     }
     .popular-img{
         flex: 1;
@@ -665,7 +677,7 @@ hr{
 
     /* why choose us section*/
     .why-choose-container{
-        width: 350px;
+        width: 335px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 100px;
@@ -680,6 +692,7 @@ hr{
         
     }
     .why-choose-des p{
+        
         font-size: 14px;
         font-weight: 400;
         line-height: 24px;
@@ -692,8 +705,8 @@ hr{
     .row1-col1{
         margin-bottom: 20px;
     }
-    .row1-col1,.row1-col2 ,.row2{
-        width: 335px;
+    .row1-col1,.row1-col2,.row2{
+        width: 270px;
         height: 284px;
         padding: 30px;
         border-radius: 16px;
@@ -702,20 +715,25 @@ hr{
     }
 
     .row1-col1 p,.row1-col2 p, .row2 p{
+        width: 97%;
+        text-align: justify;
         color: #5A5A5D;
         font-size: 14px;
         font-weight: 400;
         line-height: 24px;
     }
-    
+    .row2{
+        margin-top: 0;
+    }
     .row1-col1 h3,.row1-col2 h3, .row2 h3{
         color: #131318;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 800;
     }
 
     /* review section */
     .review-container{
+        width:335px;
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
         
@@ -735,6 +753,11 @@ hr{
         line-height: 14px;
 
         
+    }
+    .review-sec > h3{
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
     }
     .review-des{
         width: 200px;
@@ -771,6 +794,7 @@ hr{
     }
     /* news-letter-section */
     .news-letter-sec{
+        width: 335px;
         flex-direction: column;
         justify-content: center;
         margin-top: 100px;
@@ -780,7 +804,7 @@ hr{
     }
     .news-letter-form{
         padding: 16px;
-        width: 350px;
+        width: 300px;
         margin-left: auto;
         margin-right: auto;
         height: 373px;
@@ -797,6 +821,7 @@ hr{
         font-weight: 800;
     }
     .news-letter-form p{
+        width: 90%;
         color: #5A5A5D;
         font-size: 16px;
         font-weight: 400;
@@ -817,14 +842,14 @@ hr{
         margin-right: auto;
     }
     .news-img img{
-        width: 385px;
+        width: 335px;
         height: 300px;
     }
     .discount{
-        width: 200px;
-        height: 50px;
-        left: 175px;
-        top: 190px;
+        width: 190px;
+        height: 40px;
+        left: 135px;
+        top: 195px;
     }
 
     .discount h3{
